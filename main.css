@@ -1,0 +1,40 @@
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+.element-unsorted {
+  background-color: #FFA500;
+
+}
+
+#array1, #array2 {
+  transform: rotate(180deg);
+  height: 30vh;
+}
+
+.element-label {
+  transform: rotate(180deg);
+}
+
+.element-label-small {
+  transform: rotate(180deg);
+  position: relative;
+  top: 20px;
+}
+
+/*#pseudocode {*/
+/*  background-color: #202041;*/
+/*  border-radius: 25px;*/
+/*}*/
